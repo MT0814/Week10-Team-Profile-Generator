@@ -150,28 +150,12 @@ This homework is graded based on the following criteria:
 
   - The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
 
-### Repository Quality: 13%
+## Video
 
-- Repository has a unique name.
+-Build Team Profile Demo (Please click screenshot to watch the video)
+[![Build Team Profile Demo](./assets/screenshot-team-profile.png)](https://drive.google.com/file/d/1cQC4N5FSpRfQCaVOR2YtOhCpBrwFiH52/view?usp=sharing)
 
-- Repository follows best practices for file structure and naming conventions.
-
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages.
-
-- Repository contains a high-quality readme with description and a link to a walkthrough video.
-
-## Review
-
-You are required to submit the following for review:
-
-- A walkthrough video that demonstrates the functionality of the application and passing tests.
-
-- A sample HTML file generated using your application.
-
-- The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
+-Run Test Demo (Please click screenshot to watch the video)
+[![Run Test Demo](./assets/screenshot-run-test.png)](https://drive.google.com/file/d/14as434YUhvMEFDEzNKS_K2SLE4QoiWh_/view?usp=sharing)
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
