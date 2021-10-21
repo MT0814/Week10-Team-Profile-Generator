@@ -1,12 +1,10 @@
 # 10 Object-Oriented Programming: Team Profile Generator
 
-## Your Task
+[![License: MIT License](https://img.shields.io/badge/License-MIT%20License-yellow.svg)](https://www.gnu.org/licenses/MIT%20License)
 
-Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
+## Description
 
-Because this application won’t be deployed, you’ll need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You’ll need to submit a link to the video AND add it to the readme of your project.
-
-> **Note**: There is no starter code for this assignment.
+Build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. I also write a unit test for every part of my code to ensure that it passes each test.
 
 ## User Story
 
@@ -38,25 +36,16 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
-## Mock-Up
+## Technology Used
 
-The following image shows a mock-up of the generated HTML’s appearance and functionality:
-
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/10-object-oriented-programming-homework-demo.png)
-
-The styling in the image is just an example, so feel free to add your own.
-
-## Getting Started
-
-This homework will combine many of the skills we've covered so far. In addition to the User Story and Acceptance Criteria, we’ve provided some guidelines to help get started.
-
-Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
+- Uses [Jest](https://www.npmjs.com/package/jest) for running the unit tests
+- [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
 
 ```bash
 node index.js
 ```
 
-It is recommended that you start with a directory structure that looks like the following example:
+Starts with a directory structure that looks like the following example:
 
 ```md
 ├── **tests**/ //jest tests
@@ -117,16 +106,6 @@ In addition to `Employee`'s properties and methods, `Intern` will also have the 
 - `getRole()`&mdash;overridden to return `'Intern'`
 
 Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.
-
-## Grading Requirements
-
-This homework is graded based on the following criteria:
-
-### Deliverables: 15%
-
-- A sample HTML file generated using the application must be submitted.
-
-- Your GitHub repository containing your application code.
 
 ### Walkthrough Video: 32%
 
