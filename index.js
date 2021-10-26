@@ -137,7 +137,7 @@ function startHtml() {
     <title>Team Profile</title>
     <body>
     <nav class="navbar mb-5">
-      <span class="navbar-brand mt-3 h1 w-100 text-center">Team Profile</span>
+      <span class="navbar-brand mt-3 h1 w-100 text-center"><i class="bi bi-people-fill"></i>Team Profile</span>
     </nav>
         <div class="container">
             <div class="row">`;
