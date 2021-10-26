@@ -60,6 +60,7 @@ function addTeamMember() {
                 }
                 return true;
             }
+
         }])
         .then(function ({ name, role, id, email }) {
             let roleInfo = "";
