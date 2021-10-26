@@ -72,7 +72,7 @@ function addTeamMember() {
                 roleInfo = "office phone number";
             }
             inquirer.prompt([{
-                message: `Enter team member's ${roleInfo}`,
+                message: `Enter team member's ${roleInfo}: `,
                 name: "roleInfo"
             },
             {
@@ -137,7 +137,7 @@ function startHtml() {
     <title>Team Profile</title>
     <body>
     <nav class="navbar mb-5">
-      <span class="navbar-brand mt-3 h1 w-100 text-center"><i class="bi bi-people-fill"></i>Team Profile</span>
+      <span class="navbar-brand mt-3 h1 w-100 text-center"><i class="bi bi-people-fill"></i> My Team</span>
     </nav>
         <div class="container">
             <div class="row">`;
@@ -178,11 +178,11 @@ function addHtml(member) {
             const school = member.getSchool();
             data = `<div class="col">
             <div class="card mb-3" style="width: 18rem">
-                <h5 class="card-header">${name}<br /><br />Intern</h5>
+                <h5 class="card-header">${name}<i class="bi bi-person-badge"></i><br />Intern</h5>
                 <ul class="list-group list-group-flush">
                 <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
                 <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
-                    <li class="list-group-item">School ${school}</li>
+                    <li class="list-group-item"><i class="bi bi-house-door"></i>  ${school}</li>
                 </ul>
             </div>
         </div>`;
@@ -190,11 +190,11 @@ function addHtml(member) {
             const officePhone = member.getOfficeNumber();
             data = `<div class="col">
             <div class="card mb-3" style="width: 18rem">
-                <h5 class="card-header">${name}<br /><br />Manager</h5>
+                <h5 class="card-header">${name}<br /><i class="bi bi-stars"></i>Manager</h5>
                   <ul class="list-group list-group-flush">
                   <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
                   <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
-                    <li class="list-group-item">Office Phone ${officePhone}</li>
+                    <li class="list-group-item"><i class="bi bi-telephone"></i>  ${officePhone}</li>
                   </ul>
             </div>
         </div>`

@@ -8,14 +8,19 @@
 .navbar {
   background-color: rgb(104, 134, 204);
   color: rgb(241, 241, 241);
-  padding-bottom: 10px;
-  padding-top: 20px;
+
+  margin-bottom: 0px;
 }
 
 span.navbar-brand {
   font-size: 2em;
   letter-spacing: 0.085em;
 }
+
+.bi.bi-people-fill {
+  margin-right: 10px;
+}
+
 .card {
   background-color: rgb(255, 175, 110);
 }
