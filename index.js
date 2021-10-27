@@ -178,7 +178,7 @@ function addHtml(member) {
             const school = member.getSchool();
             data = `<div class="col">
             <div class="card mb-3" style="width: 18rem">
-                <h5 class="card-header">${name}<i class="bi bi-person-badge"></i><br />Intern</h5>
+                <h5 class="card-header">${name}<br><i class="bi bi-person-badge"></i><br />Intern</h5>
                 <ul class="list-group list-group-flush">
                 <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
                 <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
@@ -190,7 +190,7 @@ function addHtml(member) {
             const officePhone = member.getOfficeNumber();
             data = `<div class="col">
             <div class="card mb-3" style="width: 18rem">
-                <h5 class="card-header">${name}<br /><i class="bi bi-stars"></i>Manager</h5>
+                <h5 class="card-header">${name}<br /><i class="bi bi-bookmark-star-fill"></i><br>Manager</h5>
                   <ul class="list-group list-group-flush">
                   <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
                   <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
