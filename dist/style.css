@@ -6,9 +6,9 @@
 }
 
 .navbar {
-  background-color: rgb(104, 134, 204);
-  color: rgb(241, 241, 241);
-
+  background-color: rgb(82, 82, 82);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
   margin-bottom: 0px;
 }
 
@@ -22,10 +22,28 @@ span.navbar-brand {
 }
 
 .card {
-  background-color: rgb(255, 175, 110);
+  background-color: rgb(137, 245, 236);
 }
 
 .card-header {
-  color: rgb(245, 245, 245);
+  color: rgb(82, 82, 82);
   text-align: center;
+  font-weight: 500;
+}
+
+.table {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bi.bi-person,
+.bi-mailbox,
+.bi.bi-telephone,
+.bi-github,
+.bi.bi-house-door {
+  margin-right: 10px;
+}
+
+.list-group .list-group-item {
+  color: rgb(82, 82, 82);
 }

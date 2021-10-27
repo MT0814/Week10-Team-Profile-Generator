@@ -163,9 +163,9 @@ function addHtml(member) {
         if (role === "Engineer") {
             const gitHub = member.getGithub();
             data = `
-            <div class="col">
+            <div class="col table">
                 <div class="card  mb-3" style="width: 18rem">
-                    <h5 class="card-header">${name}<br /><i class="bi bi-wrench"></i><br />Engineer
+                    <h5 class="card-header">${name}<br /><i class="bi bi-wrench"> Engineer</i>
                     </h5>
                     <ul class="list-group list-group-flush">
                        <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
@@ -176,9 +176,9 @@ function addHtml(member) {
             </div>`;
         } else if (role === "Intern") {
             const school = member.getSchool();
-            data = `<div class="col">
+            data = `<div class="col table">
             <div class="card mb-3" style="width: 18rem">
-                <h5 class="card-header">${name}<br><i class="bi bi-person-badge"></i><br />Intern</h5>
+                <h5 class="card-header">${name}<br><i class="bi bi-person-badge"> Intern</i></h5>
                 <ul class="list-group list-group-flush">
                 <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
                 <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
@@ -188,9 +188,9 @@ function addHtml(member) {
         </div>`;
         } else {
             const officePhone = member.getOfficeNumber();
-            data = `<div class="col">
+            data = `<div class="col table">
             <div class="card mb-3" style="width: 18rem">
-                <h5 class="card-header">${name}<br /><i class="bi bi-bookmark-star-fill"></i><br>Manager</h5>
+                <h5 class="card-header">${name}<br /><i class="bi bi-bookmark-star-fill"> Manager</i></h5>
                   <ul class="list-group list-group-flush">
                   <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
                   <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
