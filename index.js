@@ -210,8 +210,8 @@ function addHtml(member) {
                 <h5 class="card-header">${name}<br><i class="bi bi-person-badge"> Intern</i></h5>
                 <ul class="list-group list-group-flush">
                 <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
-                <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
-                    <li class="list-group-item"><i class="bi bi-house-door"></i>  ${school}</li>
+                <li class="list-group-item"><i class="bi-mailbox"></i><a href="mailto: ${email} target="_blank">${email}</a></li>
+                    <li class="list-group-item"><i class="bi bi-book"></i>  ${school}</li>
                 </ul>
             </div>
         </div>`;
@@ -222,7 +222,7 @@ function addHtml(member) {
                 <h5 class="card-header">${name}<br /><i class="bi bi-bookmark-star-fill"> Manager</i></h5>
                   <ul class="list-group list-group-flush">
                   <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
-                  <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
+                  <li class="list-group-item"><i class="bi-mailbox"></i><a href="mailto: ${email} target="_blank">${email}</a></li>
                     <li class="list-group-item"><i class="bi bi-telephone"></i>  ${officePhone}</li>
                   </ul>
             </div>
