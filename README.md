@@ -1,6 +1,6 @@
 # 10 Object-Oriented Programming: Team Profile Generator
 
-[![License: MIT License](https://img.shields.io/badge/License-MIT%20License-yellow.svg)](https://www.gnu.org/licenses/MIT%20License)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -60,52 +60,6 @@ Starts with a directory structure that looks like the following example:
 ├── index.js // runs the application
 └── package.json
 ```
-
-**Important**: Make sure that you remove `dist` from the `.gitignore` file so that Git will track this folder and include it when you push up to your application's repository.
-
-The application must include `Employee`, `Manager`, `Engineer`, and `Intern` classes. The tests for these classes (in the `_tests_` directory) must ALL pass.
-
-The first class is an `Employee` parent class with the following properties and methods:
-
-- `name`
-
-- `id`
-
-- `email`
-
-- `getName()`
-
-- `getId()`
-
-- `getEmail()`
-
-- `getRole()`&mdash;returns `'Employee'`
-
-The other three classes will extend `Employee`.
-
-In addition to `Employee`'s properties and methods, `Manager` will also have the following:
-
-- `officeNumber`
-
-- `getRole()`&mdash;overridden to return `'Manager'`
-
-In addition to `Employee`'s properties and methods, `Engineer` will also have the following:
-
-- `github`&mdash;GitHub username
-
-- `getGithub()`
-
-- `getRole()`&mdash;overridden to return `'Engineer'`
-
-In addition to `Employee`'s properties and methods, `Intern` will also have the following:
-
-- `school`
-
-- `getSchool()`
-
-- `getRole()`&mdash;overridden to return `'Intern'`
-
-Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.
 
 ### Walkthrough Video: 32%
 
