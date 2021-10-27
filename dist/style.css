@@ -23,6 +23,7 @@ span.navbar-brand {
 
 .card {
   background-color: rgb(137, 245, 236);
+  box-shadow: 0 0 5px gray;
 }
 
 .card-header {

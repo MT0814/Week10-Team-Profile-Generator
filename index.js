@@ -11,12 +11,32 @@ const employees = [];
 function init() {
     console.log("Build your Team!")
     startHtml();
+    // startingPrompt();
     addTeamMember();
 }
+
+// function startingPrompt() {
+//     inquirer.prompt([
+//         {
+//             message: "/////////Welcome to Team Generator 5000! Please write your team name://///////",
+//             name: "teamname"
+//         }
+//     ])
+//         .then(function (data) {
+//             const teamName = data.name
+//             employees.push(teamName)
+//             addTeamMember();
+//         })
+
+
+// }
+
+
 
 function addTeamMember() {
 
     inquirer.prompt([
+
         {
             type: "input",
             message: "Enter team member's name: ",
@@ -62,7 +82,10 @@ function addTeamMember() {
             }
 
         }])
+
+
         .then(function ({ name, role, id, email }) {
+
             let roleInfo = "";
             if (role === "Engineer") {
                 roleInfo = "GitHub username";
@@ -85,7 +108,7 @@ function addTeamMember() {
                 name: "moreMembers",
             }])
                 .then(function ({ roleInfo, moreMembers }) {
-                    let newMember;
+                    let newMember = "";
                     if (role === "Engineer") {
                         newMember = new Engineer(name, id, email, roleInfo);
                     } else if (role === "Intern") {
@@ -93,6 +116,7 @@ function addTeamMember() {
                     } else {
                         newMember = new Manager(name, id, email, roleInfo);
                     }
+
                     employees.push(newMember);
                     addHtml(newMember)
                         .then(function () {
@@ -134,7 +158,7 @@ function startHtml() {
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Team Profile</title>
+    <title>My Team</title>
     <link
     rel="webtag icon"
     href="https://cdn0.iconfinder.com/data/icons/basic-ui-seo/64/users-512.png"
@@ -142,7 +166,7 @@ function startHtml() {
   />
     <body>
     <nav class="navbar mb-5">
-      <span class="navbar-brand mt-3 h1 w-100 text-center"><i class="bi bi-people-fill"></i> My Team</span>
+      <span class="navbar-brand mt-3 h1 w-100 text-center"><i class="bi bi-people-fill"></i>  My Team</span>
     </nav>
         <div class="container">
             <div class="row">`;
@@ -230,5 +254,7 @@ function finishHtml() {
     });
     console.log("Success! Your team profile has been generated!");
 }
+
+
 
 init();
