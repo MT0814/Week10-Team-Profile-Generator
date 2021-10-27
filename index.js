@@ -135,6 +135,11 @@ function startHtml() {
     />
     <link rel="stylesheet" href="./style.css" />
     <title>Team Profile</title>
+    <link
+    rel="webtag icon"
+    href="https://cdn0.iconfinder.com/data/icons/basic-ui-seo/64/users-512.png"
+    alt="team icon"
+  />
     <body>
     <nav class="navbar mb-5">
       <span class="navbar-brand mt-3 h1 w-100 text-center"><i class="bi bi-people-fill"></i> My Team</span>
@@ -169,8 +174,8 @@ function addHtml(member) {
                     </h5>
                     <ul class="list-group list-group-flush">
                        <li class="list-group-item"><i class="bi bi-person"></i>  ${id}</li>
-                       <li class="list-group-item"><i class="bi-mailbox"></i>  ${email}</li>
-                       <li class="list-group-item"><i class="bi-github" role="img" aria-label="GitHub"></i>  ${gitHub}</li>
+                       <li class="list-group-item"><i class="bi-mailbox"></i><a href="mailto: ${email} target="_blank">${email}</a></li>
+                       <li class="list-group-item"><i class="bi-github" role="img" aria-label="GitHub"></i><a href="https://github.com/${gitHub}" target="_blank">  ${gitHub}</a></li>
                     </ul>
                 </div>
             </div>`;
