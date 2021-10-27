@@ -23,7 +23,7 @@ span.navbar-brand {
 
 .card {
   background-color: rgb(137, 245, 236);
-  box-shadow: 0 0 5px gray;
+  box-shadow: 10px 7px 5px gray;
 }
 
 .card-header {
@@ -41,7 +41,7 @@ span.navbar-brand {
 .bi-mailbox,
 .bi.bi-telephone,
 .bi-github,
-.bi.bi-house-door {
+.bi.bi-book {
   margin-right: 10px;
 }
 
