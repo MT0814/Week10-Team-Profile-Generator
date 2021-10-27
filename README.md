@@ -6,7 +6,7 @@
 
 Build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. I also write a unit test for every part of my code to ensure that it passes each test.
 
-## User Story
+### User Story
 
 ```md
 AS A manager
@@ -14,7 +14,7 @@ I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -45,50 +45,19 @@ THEN I exit the application, and the HTML is generated
 node index.js
 ```
 
-Starts with a directory structure that looks like the following example:
+### Video
 
-```md
-├── **tests**/ //jest tests
-│ ├── Employee.test.js
-│ ├── Engineer.test.js
-│ ├── Intern.test.js
-│ └── Manager.test.js
-├── dist/ // rendered output (HTML) and CSS style sheet  
-├── lib/ // classes
-├── src/ // template helper code
-├── .gitignore // indicates which folders and files Git should ignore
-├── index.js // runs the application
-└── package.json
-```
+- Build Team Profile Demo (Please click screenshot to watch the video)
+  [![Build Team Profile Demo](./assets/screenshot-team-profile.png)](https://drive.google.com/file/d/1g4h9gE66yb013y91J39bK_e-48-ehhn2/view?usp=sharing)
 
-### Walkthrough Video: 32%
+- Run Test Demo (Please click screenshot to watch the video)
+  [![Run Test Demo](./assets/screenshot-run-test.png)](https://drive.google.com/file/d/1RXt_rKYd3YXcN9edgOKrMFz9WRec87Ul/view?usp=sharing)
 
-- A walkthrough video that demonstrates the functionality of the Team Profile Generator and passing tests must be submitted, and a link to the video should be included in your README file.
+### Screenshot
 
-- The walkthrough video must show all four tests passing from the command line.
+- Landscape Mode
+  ![Team Profile screenshot](./assets/team-profile-website.png)
 
-- The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-- The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-- The walkthrough video must demonstrate a generated HTML file that matches the user input.
-
-### Technical Acceptance Criteria: 40%
-
-- Satisfies all of the preceding acceptance criteria plus the following:
-
-  - Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-  - Uses the [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
-
-  - The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
-
-## Video
-
--Build Team Profile Demo (Please click screenshot to watch the video)
-[![Build Team Profile Demo](./assets/screenshot-team-profile.png)](https://drive.google.com/file/d/1cQC4N5FSpRfQCaVOR2YtOhCpBrwFiH52/view?usp=sharing)
-
--Run Test Demo (Please click screenshot to watch the video)
-[![Run Test Demo](./assets/screenshot-run-test.png)](https://drive.google.com/file/d/14as434YUhvMEFDEzNKS_K2SLE4QoiWh_/view?usp=sharing)
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+- Portrait Mode
+  ![Team Profile screenshot](./assets/team-profile-website2.png)
+  © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
