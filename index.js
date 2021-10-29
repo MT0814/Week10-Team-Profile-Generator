@@ -63,6 +63,7 @@ function addTeamMember() {
             type: "input",
             message: "Enter team member's id: ",
             name: "id",
+            uniquie: true,
             validate: function (answer) {
                 if (answer.length < 1) {
                     return console.log("A valid ID is required.");
