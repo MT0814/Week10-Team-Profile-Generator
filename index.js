@@ -11,25 +11,9 @@ const employees = [];
 function init() {
     console.log("Build your Team!")
     startHtml();
-    // startingPrompt();
     addTeamMember();
 }
 
-// function startingPrompt() {
-//     inquirer.prompt([
-//         {
-//             message: "/////////Welcome to Team Generator 5000! Please write your team name://///////",
-//             name: "teamname"
-//         }
-//     ])
-//         .then(function (data) {
-//             const teamName = data.name
-//             employees.push(teamName)
-//             addTeamMember();
-//         })
-
-
-// }
 
 
 
